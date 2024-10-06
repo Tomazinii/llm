@@ -1,0 +1,43 @@
+.venv
+env/
+venv/
+
+# Ignorar o diretório de versões virtuais e pacotes do Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar dependências locais de pacotes do Python
+*.egg-info/
+*.eggs/
+dist/
+build/
+
+# Ignorar arquivos de logs e outros temporários
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Ignorar controladores de versão
+.git/
+.hg/
+.svn/
+
+# Ignorar arquivos de configuração locais e do sistema
+.DS_Store
+.idea/
+.vscode/
+
+./Phi-3.5-mini-instruct
+Phi-3.5-mini-instruct
+Phi-3.5-mini-instruct/
+onnx/
+
+# Ignorar diretórios que não são necessários no build final
+node_modules/
+tests/
+docs/
+static/

@@ -1,0 +1,4 @@
+venv/
+onnx/
+Phi-3.5-mini-instruct/
+cpu_and_mobile/
